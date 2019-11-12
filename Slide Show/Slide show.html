@@ -1,0 +1,68 @@
+<! DOCTYPE HTML>
+<html>
+<head>
+	<title>Anime Slide Show</title>
+	<link href="slideshow.css" rel="stylesheet" type="text/css">
+</head>
+
+ <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+
+<body>
+
+<div id="wrap">
+<header>
+
+</header>
+
+<nav>
+<ul>
+	<li><a href="">Home</a></li>
+	<li><a href="">Fairy Tail</a></li>
+	<li><a href="">Fullmetal Alchemist</a></li>
+	<li><a href="">RWBY</a></li>
+	<li><a href="">One Piece</a></li>
+</ul>
+</nav>
+
+<section>
+	<!--div class="box">
+		Section
+	</div>-->
+	<h1> I like to watch Anime!</h1>
+		
+	<div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="images/FT.jpg" data-thumb="images/FT.jpg" alt="" />
+                <a href="http://dev7studios.com"><img src="images/FMAB.jpg" data-thumb="images/FMAB.jpg" alt="" title="This is from Fullmetal Alchemist" /></a>
+                <img src="images/RWBY.jpg" data-thumb="images/RWBY.jpg" alt="" data-transition="slideInLeft" />
+                <img src="images/OP.jpg" data-thumb="images/OP.jpg" alt="" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> was the first <em>ANIME</em> that got <a href="#">me hooked</a>. 
+            </div>
+        </div>
+	
+	<p>Curabitur pretium tortor ac diam tempus, vitae elementum nisl aliquet. Donec vitae ex non libero suscipit scelerisque sed sed mauris. Integer orci enim, viverra vel nisl sit amet, dapibus tristique lorem. Sed urna nunc, gravida ac lacus ac, pellentesque suscipit augue. Curabitur vel lacinia lectus. Sed commodo sapien non tortor feugiat, porttitor sollicitudin dui convallis. Etiam purus nulla, mollis vel lacinia vitae, tincidunt id turpis. Morbi faucibus volutpat justo. Nam molestie metus accumsan sodales pharetra.</p>
+	<p>Nullam malesuada turpis arcu, a tempus justo laoreet at. Fusce ut turpis volutpat, cursus elit quis, aliquam elit. Integer pharetra mauris at elit luctus, ac lacinia lacus pharetra. Mauris id libero mi. Sed dapibus efficitur justo nec tincidunt. Nunc maximus eu felis eu semper. Mauris mattis vestibulum turpis sed convallis. Praesent imperdiet enim ac tempor pharetra. Sed libero nisi, luctus eget laoreet et, hendrerit et nulla. Duis egestas purus purus, eget molestie nulla tristique sodales.</p>
+
+</section>
+
+<footer>
+&copy; 2019 P&G. All violators will be sued.
+</footer>
+</div>
+
+<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+
+</body>
+</html>
