@@ -1,0 +1,184 @@
+body {
+	font-family: Georgia;
+	background-color: #739ad1;
+	margin: 0;
+	padding: 0;
+}
+body.winter{
+	background-color:#cceffc;
+}
+
+body.spring{
+	background-color:#b3c1f2;
+}
+
+body.summer{
+	background-color:#7fb588;
+}
+
+body.fall{
+	background-color:#ed4637;
+}
+
+#wrap {
+	width: 70%;
+	margin: 0 auto;
+}
+
+header img {
+	width:300px;
+	height: 250px;
+}
+
+header {
+
+	padding: 10px;
+	text-align: center;	
+`   background-color: #e38d1e; 
+	background-image: linear-gradient(#7fb588, #745a99); 
+}
+
+.winter header {
+
+	padding: 10px;
+	text-align: center;	
+`   background-color: #e38d1e; 
+	background-image: linear-gradient(#a7cafa, #3976cc); 
+}
+
+.spring header {
+
+	padding: 10px;
+	text-align: center;	
+`   background-color: #e38d1e; 
+	background-image: linear-gradient(#c6bae8, #745a99); 
+}
+
+.summer header {
+
+	padding: 10px;
+	text-align: center;	
+`   background-color: #e38d1e; 
+	background-image: linear-gradient(#f2ceea, #ed4637); 
+}
+
+.fall header {
+
+	padding: 10px;
+	text-align: center;	
+`   background-color: #e38d1e; 
+	background-image: linear-gradient(#faf3b6, orange); 
+}
+
+nav {
+	background-color: orange;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-family: Georgia;
+}
+
+.winter nav{
+	background-color:#0945e8;
+}
+
+.spring nav{
+	background-color:purple;
+}
+
+.summer nav{
+	background-color:#2e7a17;
+}
+
+.fall nav{
+	background-color:#f2740c;
+}
+
+nav li {
+	display: inline;
+	/*padding: 20px;*/
+}
+
+nav ul {
+	margin:0;
+	padding:0;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 10px 30px;
+}
+
+nav a:hover {
+	color: red;
+	background-color: #faf3b6;
+}
+
+.winter nav a:hover {
+	color: blue;
+	background-color: #cceffc;
+}
+
+.spring nav a:hover {
+	color: purple;
+	background-color: #b3c1f2;
+}
+
+.summer nav a:hover {
+	color: #f2ceea;
+	background-color: #7fb588;
+}
+
+.fall nav a:hover {
+	color: maroon;
+	background-color: #faf3b6;
+}
+
+section {
+	padding: 10px;
+	background-color: rgb(100%,100%,100%);
+	overflow: auto;
+
+}
+
+.bgpic {
+	width: 350px;
+	height: 600px;
+	float: right;
+}
+
+footer {
+	background-color: #c6bae8;
+	color: red;
+	padding: 10px;
+	text-align: center;
+}
+
+.winter footer {
+	background-color: #a7cafa;
+	color: #0945e8;
+	padding: 10px;
+	text-align: center;
+}
+
+.spring footer {
+	background-color: #c6bae8;
+	color: purple;
+	padding: 10px;
+	text-align: center;
+}
+
+.summer footer {
+	background-color: #f2ceea;
+	color: #ed4637;
+	padding: 10px;
+	text-align: center;
+}
+
+.fall footer {
+	background-color: #faf3b6;
+	color: maroon;
+	padding: 10px;
+	text-align: center;
+}
