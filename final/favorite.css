@@ -1,0 +1,263 @@
+body {
+	font-family: Georgia;
+	background-color: #c6bae8;
+	margin: 0;
+	padding: 0;
+}
+body.kalispell{
+	background-color:#cceffc;
+}
+
+body.family{
+	background-color:#7fb588;
+}
+
+body.reading{
+	background-color:#faf3b6;
+}
+
+body.chocolate{
+	background-color:#332708;
+}
+
+body.cats{
+	background-color:#b05148;
+}
+
+#wrap {
+	width: 70%;
+	margin: 0 auto;
+}
+
+header img {
+	width:300px;
+	height: 250px;
+}
+
+header {
+
+	padding: 10px;
+	text-align: center;	
+`   background-color: #e38d1e; 
+	background-image: url(raindrops5.jpg); height: 300px; width: 98.5%;
+}
+
+.kalispell header {
+
+	padding: 10px;
+	text-align: center;	
+`   background-image:none;
+	background-image:linear-gradient(#a7cafa, #3976cc);
+}
+.kalispell header img {
+	width:400px;
+	height: 300px;
+}
+
+.family header {
+
+	padding: 10px;
+	text-align: center;	
+`   background-image:none;
+	background-image: linear-gradient(#c6bae8, #745a99); 
+} 
+
+.reading header {
+
+	padding: 10px;
+	text-align: center;	
+`   background-image:none;
+	background-image:linear-gradient(#ed4637, maroon); 
+}
+.reading header img {
+	width:400px;
+	height: 300px;
+}
+
+.chocolate header {
+
+	padding: 10px;
+	text-align: center;	
+`   background-image:none;
+	background-image:linear-gradient(#faf3b6, orange); 
+}
+.chocolate header img {
+	width:400px;
+	height: 300px;
+}
+
+.cats header {
+
+	padding: 10px;
+	text-align: center;	
+`   background-image:none;
+	background-image:linear-gradient(#e8e5cf, #825d38); 
+}
+.cats header img {
+	width:450px;
+	height: 300px;
+}
+
+nav {
+	background-color: #ad406c;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Pacifico', cursive;
+}
+
+.kalispell nav{
+	background-color:#0945e8;
+}
+
+.family nav{
+	background-color:#ad406c;
+}
+
+.reading nav{
+	background-color:#ccb102;
+}
+
+.chocolate nav{
+	background-color:#4a3501;
+}
+
+.cats nav{
+	background-color:orange;
+}
+
+nav li {
+	display: inline;
+	/*padding: 20px;*/
+}
+
+nav ul {
+	margin:0;
+	padding:0;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 10px 30px;
+}
+
+nav a:hover {
+	color: purple;
+	background-color: #f2ceea;
+}
+
+.kalispell nav a:hover {
+	color: blue;
+	background-color: #cceffc;
+}
+
+.family nav a:hover {
+	color: #ed4637;
+	background-color: #faf3b6;
+}
+
+.reading nav a:hover {
+	color: #2e7a17;
+	background-color: #faf3b6;
+}
+
+.chocolate nav a:hover {
+	color: #332708;
+	background-color: #825d38;
+}
+
+.cats nav a:hover {
+	color: #b05148;
+	background-color: #e8e5cf;
+}
+
+section {
+	padding: 10px;
+	background-color: rgb(100%,100%,100%);
+	overflow: auto;
+
+}
+
+.bgpic {
+	width: 350px;
+	height: 600px;
+	float: right;
+}
+.kalispell bgpic {
+	width: 900px;
+	height: 350px;
+	float: right;
+}
+.books{
+	width: 50%;
+	margin:0 auto;
+}
+footer {
+	background-color: #f2ceea;
+	color: purple;
+	padding: 10px;
+	text-align: center;
+}
+
+.kalispell footer {
+	background-color: #a7cafa;
+	color: #0945e8;
+	padding: 10px;
+	text-align: center;
+}
+
+.family footer {
+	background-color: #faf3b6;
+	color: #ed4637;
+	padding: 10px;
+	text-align: center;
+}
+
+.reading footer {
+	background-color: #ccb102;
+	color: #2e7a17;
+	padding: 10px;
+	text-align: center;
+}
+
+.chocolate footer {
+	background-color: #825d38;
+	color: #332708;
+	padding: 10px;
+	text-align: center;
+}
+
+.cats footer {
+	background-color: #e8e5cf;
+	color: orange;
+	padding: 10px;
+	text-align: center;
+}
+
+figure{
+	float:left;
+	width:20%;
+	margin: 30px;
+}
+
+figure img{
+	width: 100%
+}
+
+.things{
+	text-align: center;
+	padding-top:60px;
+}
+.center{
+	text-align: center;
+}
+.map{
+	width: 50%;
+	margin:0 auto;
+
+}
+.view {
+	width:50%;
+	margin:0 auto;
+}
